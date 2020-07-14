@@ -36,7 +36,13 @@ nav {
   opacity: 0.75;
 }
 
-.hbl a:hover {
+.hbr a {
+  text-decoration: none;
+  color: #000;
+  opacity: 0.75;
+}
+
+.hbl a:hover, .hbr a:hover {
   text-decoration: underline;
 }
 
@@ -102,6 +108,12 @@ main {
   outline: none;
   padding-left: 10px;
   padding-bottom: 5px;
+  cursor: pointer;
+}
+
+.searchBarInput input:disabled {
+  background-color: inherit;
+  color: inherit;
 }
 
 .searchBarSpeech {
@@ -122,6 +134,7 @@ main {
 }
 
 .main_buttons {
+  display: flex;
   padding-top: 18px;
 }
 
