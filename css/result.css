@@ -1,0 +1,101 @@
+nav {
+  top: 0;
+  margin-top: 20px;
+  height: 105px;
+  border-bottom: 1px solid #EBEBEB;
+}
+
+.hbl {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  margin-left: 133px;
+  padding-left: 27px;
+}
+
+.hblLogo {
+  position: absolute;
+  top: 4px;
+  left: -154px;
+  padding: 4px 28px 0 30px;
+}
+
+.searchBar {
+  margin-top: 0;
+  width: 664px;
+}
+
+.searchBarIconContainer {
+  display: flex;
+  cursor: pointer;
+}
+
+.searchBarDivider {
+  position: relative;
+  height: 30px;
+  border-left: 1px solid #DFE1E5;
+  padding-right: 5px;
+  bottom: 2px;
+}
+
+.searchBarSpeech span, .searchBarIcon span {
+  color: #1A73E8;
+}
+
+.hbr {
+  margin-top: 6px;
+  margin-right: 12px;
+}
+
+.hbu {
+  display: flex;
+  margin-top: 1px;
+}
+
+.hbul {
+  color: #000;
+  opacity: 0.75;
+}
+
+.hbur {
+  padding-left: 59px;
+}
+
+.hbur a:hover {
+  text-decoration: none;
+}
+
+.hbul ul, .hbur ul {
+  display: flex;
+  list-style: none;
+}
+
+.hbul li, .hbur li {
+  display: flex;
+  align-items: center;
+  margin: 11px 1px 0;
+  padding: 16px 12px 12px 10px;
+  height: 16px;
+  line-height: 16px;
+}
+
+.hbur li {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.hbulLi .material-icons-outlined {
+  position: relative;
+  top: -1px;
+  padding-right: 5px;
+  font-size: 18px;
+}
+
+.hbulLi:hover {
+  cursor: pointer;
+}
+
+.hbulLiActive {
+  border-bottom: 3px solid #1A73E8;
+  color: #1A73E8;
+}

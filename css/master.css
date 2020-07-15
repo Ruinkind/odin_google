@@ -80,7 +80,6 @@ main {
 .searchBar {
   display: flex;
   align-items: center;
-  /* justify-content: center; */
   border: 1px solid #dfe1e5;
   border-radius: 24px;
   margin: 0 auto;
@@ -108,16 +107,18 @@ main {
   outline: none;
   padding-left: 10px;
   padding-bottom: 5px;
-  cursor: pointer;
+  font-size: 16px;
+  cursor: text;
 }
 
-.searchBarInput input:disabled {
+.searchBarInput input:disabled, .searchBarInput input::placeholder {
   background-color: inherit;
   color: inherit;
 }
 
-.searchBarSpeech {
+.searchBarSpeech, .searchBarIcon {
   padding-right: 8px;
+  padding-left: 8px;
 }
 
 .material-icons {
@@ -126,11 +127,6 @@ main {
 
 .searchBarClear {
   margin-right: 12px;
-}
-
-.searchBarDivider {
-  border-left: 1px solid #DFE1E5;
-  height: 65%;
 }
 
 .main_buttons {
