@@ -38,8 +38,12 @@ nav {
   bottom: 2px;
 }
 
-.searchBarSpeech span, .searchBarIcon span {
+.searchBarIcon span {
   color: #1A73E8;
+}
+
+.searchBarClear {
+  margin-right: 12px;
 }
 
 .hbr {

@@ -122,12 +122,8 @@ main {
   cursor: pointer;
 }
 
-.material-icons {
-  color: rgba(0, 0, 0, 0.4);
-}
-
-.searchBarClear {
-  margin-right: 12px;
+.searchBarSpeech span {
+  color: #1A73E8;
 }
 
 .main_buttons {
@@ -172,6 +168,10 @@ main {
   padding: 0 3px;
   color: #1a0dab;
   text-decoration: none;
+}
+
+.material-icons {
+  color: rgba(0, 0, 0, 0.4);
 }
 
 footer {
