@@ -13,6 +13,7 @@ html {
 
 body {
   font-family: arial,sans-serif;
+  font-size: 14px;
 }
 
 nav {
@@ -129,12 +130,13 @@ main {
 .main_buttons {
   display: flex;
   padding-top: 18px;
+  height: 70px;
 }
 
 .main_buttons button {
   height: 36px;
   min-width: 54px;
-  margin: 11px 4px;
+  margin: 11px 6px;
   padding: 0 16px;
   line-height: 27px;
   background-color: #f2f2f2;
