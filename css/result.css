@@ -4,6 +4,17 @@ nav {
   border-bottom: 1px solid #EBEBEB;
 }
 
+em {
+  font-weight: bold;
+  font-style: normal;
+}
+
+h3 {
+  line-height: 1.3;
+  font-size: 20px;
+  font-weight: normal;
+}
+
 .hbContainer {
   position: absolute;
   top: 0;
@@ -125,12 +136,12 @@ nav {
 main {
   display: block;
   width: 100%;
+  margin-left: 180px;
   z-index: 1;
 }
 
 .mainReturns {
   top: 0;
-  margin-left: 180px;
   height: 43px;
   line-height: 43px;
   color: #70757A;
@@ -138,7 +149,6 @@ main {
 
 .mainContainer {
   max-width: 1280px;
-  margin-left: 180px;
   width: 652px;
 }
 
@@ -170,9 +180,6 @@ main {
 .mainResultsCardHead h3 {
   margin-bottom: 3px;
   padding-top: 4px;
-  line-height: 1.3;
-  font-size: 20px;
-  font-weight: normal;
   color: #1A0DAB;
 }
 
@@ -195,18 +202,12 @@ main {
   color: #4D5156;
 }
 
-.mainResultsBody em {
-  font-weight: bold;
-  font-style: normal;
-}
-
 .mainResultsBody span {
   color: #70757A;
 }
 
 .mainVideoContainer {
   width: 652px;
-  padding-left: 180px;
 }
 
 .mainVideoContainer h3 {
@@ -270,6 +271,142 @@ main {
 
 .mainVideoCardFooterBottom span {
   color: #202124;
+}
+
+.mainAlsoSearchContainer {
+  width: 650px;
+}
+
+.mainAlsoSearch {
+  margin-bottom: 16px;
+}
+
+.mainAlsoSearch h3 {
+  margin-bottom: 16px;
+}
+
+.mainAlsoSearchCard {
+  width: 100%;
+  border: 1px solid #DFE1E5;
+  border-radius: 8px;
+}
+
+.mainAlsoSearchHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 16px;
+  min-height: 40px;
+}
+
+.mainAlsoSearchHeader p {
+  font-size: 16px;
+  line-height: 1.3;
+}
+
+.mainAlsoSearchHeader span {
+  cursor: pointer;
+}
+
+.mainAlsoSearchBody {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0 16px 16px 16px;
+}
+
+.mainAlsoSearchBody a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.mainAlsoSearchBodyCard {
+  overflow: hidden;
+  margin-right: 6px;
+  /* padding-bottom: 8px; */
+  height: 100%;
+  width: 96px;
+  border: 1px solid #DFE1E5;
+  border-radius: 8px;
+}
+
+.mainAlsoSearchBodyCardImg {
+  margin-bottom: 8px;
+  object-fit: fill;
+}
+
+.mainAlsoSearchBodyCardTitle {
+  margin: 0 8px;
+  padding-bottom: 8px;
+  line-height: 19px;
+}
+
+.mainAlsoSearchFooter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.mainAlsoSearchFooter a {
+  text-decoration: none;
+  color: #1A0DAB;
+}
+
+.mainAlsoSearchFooterInput {
+  position: relative;
+  box-sizing: border-box;
+  height: 36px;
+  width: 300px;
+  padding: 7px 11px;
+  border: 1px solid #DFE1E5;
+  border-radius: 18px;
+  line-height: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.mainAlsoSearchFooterInput:hover {
+  background: #FAFAFA;
+}
+
+.searchFooterIcon {
+  position: absolute;
+  left: 12px;
+  top: 5px;
+  color: #1A0DAB;
+}
+
+.mainRelated {
+  margin-bottom: 28px;
+}
+
+.mainRelated h3 {
+  padding-bottom: 20px;
+  color: #222;
+}
+
+.mainRelatedResults {
+  max-width: 100%;
+  line-height: 24px;
+  font-size: 16px;
+}
+
+.mainRelatedResults a {
+  display: inline-block;
+  padding: 3px 32px 3px 0;
+  text-decoration: none;
+  color: #1A0DAB;
+}
+
+.mainRelatedResults span {
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 8px;
+  font-size: 22px;
+  color: #1A0DAB;
+}
+
+.mainRelatedResults a:hover {
+  text-decoration: underline;
 }
 
 footer {
