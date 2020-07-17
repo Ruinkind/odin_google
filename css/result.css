@@ -135,6 +135,7 @@ h3 {
 
 main {
   display: block;
+  max-width: 1280px;
   width: 100%;
   margin-left: 180px;
   z-index: 1;
@@ -274,7 +275,7 @@ main {
 }
 
 .mainAlsoSearchContainer {
-  width: 650px;
+  width: 652px;
 }
 
 .mainAlsoSearch {
@@ -322,7 +323,6 @@ main {
 .mainAlsoSearchBodyCard {
   overflow: hidden;
   margin-right: 6px;
-  /* padding-bottom: 8px; */
   height: 100%;
   width: 96px;
   border: 1px solid #DFE1E5;
@@ -375,6 +375,10 @@ main {
   color: #1A0DAB;
 }
 
+.mainRelatedContainer {
+  width: 652px;
+}
+
 .mainRelated {
   margin-bottom: 28px;
 }
@@ -409,7 +413,100 @@ main {
   text-decoration: underline;
 }
 
+.mainSeekBarContainer {
+  display: flex;
+  justify-content: center;
+  width: 652px;
+  margin-bottom: 6px;
+}
+
+.mainSeekBarContainer table {
+  border-collapse: collapse;
+}
+
+.mainSeekBarContainer td {
+  padding: 0;
+  text-align: center;
+}
+
+.mainSeekBarContainer span {
+  display: block;
+  height: 40px;
+  text-decoration: none;
+}
+
+.mainSeekBarContainer a {
+  text-decoration: none;
+  color: #4285F4;
+}
+
+.mainSeekBarContainer a:hover {
+  text-decoration: underline;
+}
+
+.mainSeekBarG {
+  background: url(../images/seekbar.webp) no-repeat;
+  background-position: -24px 0;
+  width: 28px;
+}
+
+.mainSeekBarORed {
+  background: url(../images/seekbar.webp) no-repeat;
+  background-position: -53px 0;
+  width: 20px;
+}
+
+.mainSeekBarOYellow {
+  background: url(../images/seekbar.webp) no-repeat;
+  background-position: -74px 0;
+  width: 20px;
+  cursor: pointer;
+}
+
+.mainSeekBarNext {
+  background: url(../images/seekbar.webp) no-repeat;
+  background-position: -96px 0;
+  width: 71px;
+  cursor: pointer;
+}
+
+.mainSeekBarNextFooter {
+  margin-left: 53px;
+}
+
 footer {
   position: relative;
-  margin-top: 100px;
+}
+
+.fbt {
+  padding-left: 180px;
+}
+
+.fbt a {
+  padding-left: 0;
+}
+
+.fbt em {
+  color: #222;
+}
+
+.fbtr {
+  display: inline-block;
+  line-height: 15px;
+  font-size: 14px;
+  margin-left: 13px;
+  padding-left: 16px;
+  border-left: 1px solid #E4E4E4;
+  color: #5f6368;
+}
+
+.fbt .material-icons {
+  margin: 4px 4px 5px 0;
+  vertical-align: middle;
+  font-size: 18px;
+  padding-right: 4px;
+}
+
+.fbl {
+  padding-left: 153px;
 }
