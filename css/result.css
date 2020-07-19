@@ -29,6 +29,7 @@ h3 {
   position: fixed;
   border-bottom: 1px solid #EBEBEB;
   box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  min-width: 980px;
 }
 
 .hbl {
@@ -480,6 +481,7 @@ footer {
 
 .fbt {
   padding-left: 180px;
+  white-space: nowrap;
 }
 
 .fbt a {
@@ -496,6 +498,7 @@ footer {
   font-size: 14px;
   margin-left: 13px;
   padding-left: 16px;
+  white-space: nowrap;
   border-left: 1px solid #E4E4E4;
   color: #5f6368;
 }
