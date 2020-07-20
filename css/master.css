@@ -13,10 +13,14 @@ html {
 }
 
 body {
-  /* position: relative; */
+  position: relative;
   min-width: 980px;
   font-family: arial,sans-serif;
   font-size: 14px;
+}
+
+header {
+  width: 100%;
 }
 
 nav {
@@ -75,6 +79,7 @@ main {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding-bottom: 70px;
 }
 
 .main_logo {
@@ -184,6 +189,7 @@ footer {
   bottom: 0;
   width: 100%;
   min-width: 980px;
+  margin: 0 auto;
   border-top: 1px solid #e4e4e4;
   background: #f2f2f2;
   color: rgba(0, 0, 0, 0.54);
